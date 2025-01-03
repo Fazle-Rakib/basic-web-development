@@ -19,8 +19,6 @@ Every HTML document follows a basic structure:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
@@ -53,11 +51,10 @@ Every HTML document follows a basic structure:
 Attributes provide additional information about an element. They are defined inside the opening tag.
 
 ```html
-<a href="https://example.com" target="_blank">Visit Example</a>
+<a href="https://example.com">Visit Example</a>
 ```
 
 - **`href`**: Specifies the URL.
-- **`target`**: Defines how the link opens.
 
 More attributes: [MDN - HTML Attribute Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
